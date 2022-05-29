@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/word-game/static/css/main.f9ad3824.css",
+    "main.js": "/word-game/static/js/main.cddb828b.js",
+    "static/media/484267__inspectorj__party-pack-horn-coil-01-long-01.wav": "/word-game/static/media/484267__inspectorj__party-pack-horn-coil-01-long-01.250030d2ffeea01c9920.wav",
+    "static/media/219876__polmdx__buu-loser-shout.mp3": "/word-game/static/media/219876__polmdx__buu-loser-shout.8e9220baf56f47f97cc6.mp3",
+    "index.html": "/word-game/index.html",
+    "main.f9ad3824.css.map": "/word-game/static/css/main.f9ad3824.css.map",
+    "main.cddb828b.js.map": "/word-game/static/js/main.cddb828b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9ad3824.css",
+    "static/js/main.cddb828b.js"
+  ]
+}
