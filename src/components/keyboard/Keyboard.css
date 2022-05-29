@@ -1,0 +1,103 @@
+.klavesa {
+    background-color: white;
+    border-radius: 4px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    list-style: none;
+    margin: 3px;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 900px) {
+    body .keyboard-part{
+        width: 105%;
+        transform: translate(-50%, 0%);
+    }
+}
+.keyboard-part{
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.key-correct{
+    background-color: #3F681C;
+    border-radius: 4px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    list-style: none;
+    margin: 3px;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.key-absent{
+    background-color: gray;
+    border-radius: 4px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    list-style: none;
+    margin: 3px;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.key-present{
+    background-color: #FFBB00;
+    border-radius: 4px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    list-style: none;
+    margin: 3px;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
