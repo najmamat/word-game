@@ -1,0 +1,35 @@
+.not-guessed {
+    background-color: gray;
+}
+.exact-guessed {
+    background-color: #3F681C;
+}
+.char-guessed {
+    background-color: #FFBB00;
+}
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 900px) {
+    body .ctverecek{
+        height: 7vh;
+        width: 7vh;
+        margin: 1px;
+    }
+}
+.ctverecek{
+    transition: background-color 0.25s linear;
+    width: 10vh;
+    height: 10vh;
+    color: black;
+    margin: 2px;
+    font-size: 4vh;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
